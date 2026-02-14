@@ -1,0 +1,175 @@
+##grflangid 0x01
+
+#Main grf title and description
+STR_GRF_NAME        :JP Style Objects Parks V3
+STR_GRF_DESCRIPTION :{YELLOW}JP Style Objects Parks ,2025/11/12. {}{YELLOW}Introduce various parks, inspired by the lovely scenery of Japan.{}{WHITE}Draw by: Zyliety, GarryG, Mrsunman, Yozora, Moonlight. {}{WHITE}Code by:Zyliety.{}{WHITE}License:GPLv2 or higher
+
+#error messages
+STR_OPENTTD_VERSION :1.2.0 (r22723)
+
+#object classes
+STR_JPPA		:{YELLOW}JP Style Objects Parks
+
+STR_ObjectMenu		:    Object Menu
+
+STR_BATS		:    Basic Tiles
+
+STR_PARR		:    Parks
+
+STR_PAHH		:    Path
+
+#object name and description
+#Basic Tiles
+STR_bt_1		:Basic Tiles 1   
+STR_bt_1_purchase_view1		:Basic Tiles 1
+STR_bt_1_purchase_view2		:Basic Tiles 1
+STR_bt_1_purchase_view3		:Basic Tiles 1
+STR_bt_1_purchase_view4		:Basic Tiles 1
+
+STR_bt_2		:Basic Tiles 2   
+STR_bt_2_purchase_view1		:Basic Tiles 2
+STR_bt_2_purchase_view2		:Basic Tiles 2
+STR_bt_2_purchase_view3		:Basic Tiles 2
+STR_bt_2_purchase_view4		:Basic Tiles 2
+
+STR_bt_3		:Basic Tiles 3   
+STR_bt_3_purchase_view1		:Basic Tiles 3
+STR_bt_3_purchase_view2		:Basic Tiles 3
+STR_bt_3_purchase_view3		:Basic Tiles 3
+STR_bt_3_purchase_view4		:Basic Tiles 3
+
+STR_bt_4		:Basic Tiles 4   
+STR_bt_4_purchase_view1		:Basic Tiles 4
+STR_bt_4_purchase_view2		:Basic Tiles 4
+STR_bt_4_purchase_view3		:Basic Tiles 4
+STR_bt_4_purchase_view4		:Basic Tiles 4
+
+STR_bt_5		:Basic Tiles 5
+STR_bt_6		:Basic Tiles 6
+STR_bt_7		:Basic Tiles 7
+STR_bt_8		:Basic Tiles 8
+
+STR_bt_9		:Basic Tiles 9   
+STR_bt_9_purchase_view1		:Basic Tiles 9
+STR_bt_9_purchase_view2		:Basic Tiles 9
+STR_bt_9_purchase_view3		:Basic Tiles 9
+STR_bt_9_purchase_view4		:Basic Tiles 9
+
+STR_bt_10		:Basic Tiles 10   
+STR_bt_10_purchase_view1		:Basic Tiles 10
+STR_bt_10_purchase_view2		:Basic Tiles 10
+STR_bt_10_purchase_view3		:Basic Tiles 10
+STR_bt_10_purchase_view4		:Basic Tiles 10
+
+STR_bt_11		:Basic Tiles 11   
+STR_bt_11_purchase_view1		:Basic Tiles 11
+STR_bt_11_purchase_view2		:Basic Tiles 11
+STR_bt_11_purchase_view3		:Basic Tiles 11
+STR_bt_11_purchase_view4		:Basic Tiles 11
+
+STR_bt_12		:Basic Tiles 12   
+STR_bt_12_purchase_view1		:Basic Tiles 12
+STR_bt_12_purchase_view2		:Basic Tiles 12
+STR_bt_12_purchase_view3		:Basic Tiles 12
+STR_bt_12_purchase_view4		:Basic Tiles 12
+
+
+#parks
+STR_pa_1		:Parks 1x1
+
+STR_pa_2		:Train Parks1x1 
+STR_pa_2_purchase_view1		:KIHA 40
+STR_pa_2_purchase_view2		:C12
+STR_pa_2_purchase_view3		:KIHA 40
+STR_pa_2_purchase_view4		:C12
+
+STR_pa_3      :Train Parks1x2(C12)
+STR_pa_4      :Parks1x2
+
+STR_pa_5		:Parks2x2
+STR_pa_5_purchase_view1		:Parks2x2
+STR_pa_5_purchase_view2		:Parks2x2
+STR_pa_5_purchase_view3		:Parks2x2
+STR_pa_5_purchase_view4		:Parks2x2
+
+STR_pa_6		:Parks2x2
+STR_pa_6_purchase_view1		:Parks2x2
+STR_pa_6_purchase_view2		:Parks2x2
+STR_pa_6_purchase_view3		:Parks2x2
+STR_pa_6_purchase_view4		:Parks2x2
+
+STR_pa_7            :Parks4x4
+STR_pa_7_purchase_view1    :Parks4x4
+STR_pa_7_purchase_view2    :Parks4x4
+STR_pa_7_purchase_view3    :Parks4x4
+STR_pa_7_purchase_view4    :Parks4x4
+
+
+
+
+#Path
+STR_path_1		:Cobblestone Path
+STR_path_1_purchase_view1		:Cobblestone Path
+STR_path_1_purchase_view2		:Cobblestone Path
+STR_path_1_purchase_view3		:Cobblestone Path
+STR_path_1_purchase_view4		:Cobblestone Path
+
+STR_path_2		:Gravel Path
+STR_path_2_purchase_view1		:Gravel Path
+STR_path_2_purchase_view2		:Gravel Path
+STR_path_2_purchase_view3		:Gravel Path
+STR_path_2_purchase_view4		:Gravel Path
+
+STR_path_3		:Diagonal Path
+STR_path_3_purchase_view1		:Diagonal Path
+STR_path_3_purchase_view2		:Diagonal Path
+STR_path_3_purchase_view3		:Diagonal Path
+STR_path_3_purchase_view4		:Diagonal Path
+
+STR_path_4		:Cobblestone Path(Streetlight)
+STR_path_4_purchase_view1		:Cobblestone Path(Streetlight)
+STR_path_4_purchase_view2		:Cobblestone Path(Streetlight)
+STR_path_4_purchase_view3		:Cobblestone Path(Streetlight)
+STR_path_4_purchase_view4		:Cobblestone Path(Streetlight)
+
+STR_path_5		:Cobblestone Path(Flower)
+STR_path_5_purchase_view1		:Cobblestone Path(Flower)
+STR_path_5_purchase_view2		:Cobblestone Path(Flower)
+STR_path_5_purchase_view3		:Cobblestone Path(Flower)
+STR_path_5_purchase_view4		:Cobblestone Path(Flower)
+
+STR_path_6		:Cobblestone Path(Flower)
+STR_path_6_purchase_view1		:Cobblestone Path(Flower)
+STR_path_6_purchase_view2		:Cobblestone Path(Flower)
+STR_path_6_purchase_view3		:Cobblestone Path(Flower)
+STR_path_6_purchase_view4		:Cobblestone Path(Flower)
+
+STR_path_7		:Gravel Path(Streetlight)
+STR_path_7_purchase_view1		:Gravel Path(Streetlight)
+STR_path_7_purchase_view2		:Gravel Path(Streetlight)
+STR_path_7_purchase_view3		:Gravel Path(Streetlight)
+STR_path_7_purchase_view4		:Gravel Path(Streetlight)
+
+STR_path_8		:Path(Slop)
+STR_path_8_purchase_view1		:Path(Slop)
+STR_path_8_purchase_view2		:Path(Slop)
+STR_path_8_purchase_view3		:Path(Slop)
+STR_path_8_purchase_view4		:Path(Slop)
+
+STR_path_9		:Path(Slop)
+STR_path_9_purchase_view1		:Path(Slop)
+STR_path_9_purchase_view2		:Path(Slop)
+STR_path_9_purchase_view3		:Path(Slop)
+STR_path_9_purchase_view4		:Path(Slop)
+
+STR_path_10		:Path(people)
+STR_path_10_purchase_view1		:Path(people)
+STR_path_10_purchase_view2		:Path(people)
+STR_path_10_purchase_view3		:Path(people)
+STR_path_10_purchase_view4		:Path(people)
+
+STR_path_11		:Path(people)
+STR_path_11_purchase_view1		:Path(people)
+STR_path_11_purchase_view2		:Path(people)
+STR_path_11_purchase_view3		:Path(people)
+STR_path_11_purchase_view4		:Path(people)
