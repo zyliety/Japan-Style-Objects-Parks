@@ -1,7 +1,7 @@
 ##grflangid 0x01
 
 #Main grf title and description
-STR_GRF_NAME        :JP Style Objects Parks V3.10
+STR_GRF_NAME        :JP Style Objects Parks V3.20
 STR_GRF_DESCRIPTION :{YELLOW}JP Style Objects Parks ,2025/11/12. {}{YELLOW}Introduce various parks, inspired by the lovely scenery of Japan.{}{WHITE}Draw by: Zyliety, GarryG, Mrsunman, Yozora, Moonlight. {}{WHITE}Code by:Zyliety.{}{WHITE}License:GPLv2 or higher
 
 #error messages
@@ -17,6 +17,8 @@ STR_BATS		:    Basic Tiles
 STR_PARR		:    Parks
 
 STR_PAHH		:    Path
+
+STR_NAST		:    Natural Tiles
 
 #object name and description
 #Basic Tiles
@@ -174,3 +176,7 @@ STR_path_11_purchase_view1		:Path(people)
 STR_path_11_purchase_view2		:Path(people)
 STR_path_11_purchase_view3		:Path(people)
 STR_path_11_purchase_view4		:Path(people)
+
+STR_cannatile11        :Natural Tiles 1x1
+STR_cannatile21        :Natural Tiles 1x1
+STR_cannatile31        :Natural Tiles 1x1
