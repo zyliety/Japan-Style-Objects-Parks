@@ -3,7 +3,7 @@
 #Main grf title and description
 STR_GRF_NAME        :JP Style Objects Parks V3.20
 STR_GRF_DESCRIPTION :{YELLOW}JP Style Objects Parks ,2025/11/12. {}{YELLOW}Introduce various parks, inspired by the lovely scenery of Japan.{}{WHITE}Draw by: Zyliety, GarryG, Mrsunman, Yozora, Moonlight. {}{WHITE}Code by:Zyliety.{}{WHITE}License:GPLv2 or higher
-
+STR_GRF_URL         :https://github.com/zyliety/Japan-Style-Objects-Parks
 #error messages
 STR_OPENTTD_VERSION :1.2.0 (r22723)
 

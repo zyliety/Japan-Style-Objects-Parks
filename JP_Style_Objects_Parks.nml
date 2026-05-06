@@ -10,6 +10,7 @@ grf {
     grfid:                  "JPPA";
     name:                   string(STR_GRF_NAME);
     desc:                   string(STR_GRF_DESCRIPTION);
+    url:                   string(STR_GRF_URL);
     version:                320;
     min_compatible_version: 1;
 }
