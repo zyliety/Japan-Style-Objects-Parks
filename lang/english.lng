@@ -107,7 +107,23 @@ STR_pa_7_purchase_view2    :Parks4x4
 STR_pa_7_purchase_view3    :Parks4x4
 STR_pa_7_purchase_view4    :Parks4x4
 
+STR_pa_8		:Parks2x2
+STR_pa_8_purchase_view1		:Parks2x2
+STR_pa_8_purchase_view2		:Parks2x2
+STR_pa_8_purchase_view3		:Parks2x2
+STR_pa_8_purchase_view4		:Parks2x2
 
+STR_pa_9		:Parks2x2
+STR_pa_9_purchase_view1		:Parks2x2
+STR_pa_9_purchase_view2		:Parks2x2
+STR_pa_9_purchase_view3		:Parks2x2
+STR_pa_9_purchase_view4		:Parks2x2
+
+STR_pa_10		:Otsu Park
+STR_pa_10_purchase_view1		:Otsu Park
+STR_pa_10_purchase_view2		:Otsu Park
+STR_pa_10_purchase_view3		:Otsu Park
+STR_pa_10_purchase_view4		:Otsu Park
 
 
 #Path

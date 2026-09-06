@@ -1,0 +1,113 @@
+grf {
+	grfid: "TEST";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESC);
+	version: 0;
+	min_compatible_version: 0;
+}
+
+template tmpl_months() {
+	[0, 0, 64, 31, -31, 0]
+	[70, 0, 64, 31, -31, 0]
+	[140, 0, 64, 31, -31, 0]
+	[210, 0, 64, 31, -31, 0]
+	[280, 0, 64, 31, -31, 0]
+	[350, 0, 64, 31, -31, 0]
+	[420, 0, 64, 31, -31, 0]
+	[490, 0, 64, 31, -31, 0]
+	[560, 0, 64, 31, -31, 0]
+	[630, 0, 64, 31, -31, 0]
+	[700, 0, 64, 31, -31, 0]
+	[770, 0, 64, 31, -31, 0]
+}
+template tmpl_seasons() {
+	[0, 0, 64, 31, -31, 0]
+	[70, 0, 64, 31, -31, 0]
+	[140, 0, 64, 31, -31, 0]
+	[210, 0, 64, 31, -31, 0]
+}
+
+switch (FEAT_OBJECTS, SELF, function_decide_month, [current_month]) {
+	0: 0;
+	1: 1;
+	2: 2;
+	3: 3;
+	4: 4;
+	5: 5;
+	6: 6;
+	7: 7;
+	8: 8;
+	9: 9;
+	10: 10;
+	11: 11;
+}
+switch (FEAT_OBJECTS, SELF, function_decide_season, [current_month]) {
+	0..1: 3;
+	2..4: 0;
+	5..7: 1;
+	8..10: 2;
+	11: 3;
+}
+
+
+// MONTHS
+spriteset (spriteset_months, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/months.png") {tmpl_months()}
+spritelayout layout_months {ground { sprite: spriteset_months(LOAD_TEMP(0)); } }
+spritelayout layout_menu {ground { sprite: spriteset_months(0); } }
+
+switch (FEAT_OBJECTS, SELF, switch_months, [STORE_TEMP(function_decide_month(), 0)]) {
+    return layout_months;
+}
+
+item (FEAT_OBJECTS, object_months) {
+    property {
+        class:                  "SEAS";
+        classname:              string(STR_CLASS);
+        name:                   string(STR_OBJ_NAME1);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  8;
+        remove_cost_multiplier: 8;
+        introduction_date:      0x00000000;
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);
+        height:                 4;
+        num_views:              1;
+    }
+    graphics {
+        default:         switch_months;
+        purchase:        layout_menu;
+    }
+}
+
+
+
+// SEASONS
+spriteset (spriteset_seasons, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/seasons.png") {tmpl_seasons()}
+spritelayout layout_seasons {ground { sprite: spriteset_seasons(LOAD_TEMP(0)); } }
+spritelayout layout_menu2 {ground { sprite: spriteset_seasons(0); } }
+
+switch (FEAT_OBJECTS, SELF, switch_seasons, [STORE_TEMP(function_decide_season(), 0)]) {
+    return layout_seasons;
+}
+
+item (FEAT_OBJECTS, object_seasons) {
+    property {
+        class:                  "SEAS";
+        classname:              string(STR_CLASS);
+        name:                   string(STR_OBJ_NAME2);
+        climates_available:     ALL_CLIMATES;
+        size:                   [1,1];
+        build_cost_multiplier:  8;
+        remove_cost_multiplier: 8;
+        introduction_date:      0x00000000;
+        end_of_life_date:       0xFFFFFFFF;
+        object_flags:           bitmask(OBJ_FLAG_ANYTHING_REMOVE);
+        height:                 4;
+        num_views:              1;
+    }
+    graphics {
+        default:         switch_seasons;
+        purchase:        layout_menu2;
+    }
+}

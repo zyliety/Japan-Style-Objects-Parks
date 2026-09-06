@@ -1,0 +1,8 @@
+##grflangid 0x01
+
+STR_GRF_NAME: {GOLD}CHANGE SPRITE BY DATE
+STR_GRF_DESC: Testing seasonal changes.
+STR_GRF_URL: https://
+STR_CLASS:Testing seasonal changes
+STR_OBJ_NAME1:Months
+STR_OBJ_NAME2:Seasons
